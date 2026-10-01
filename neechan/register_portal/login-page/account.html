@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='account.css'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src='main.js' defer></script>
+</head>
+
+<body>
+    <div>
+
+        <header class="header">
+            <div style="display: flex; justify-content: left; align-items: center; gap: 10px;">
+                <img src="mainlogo.png"
+                    style="width:100px; height: 50px; object-fit: cover; margin: 4px;border:0px; cursor: pointer;">
+                <h3>WALLS</h3>
+            </div>
+      </header>    
+    <div class="box">
+        <div class="big_box">
+            <div class="small_box">
+                <div class="profile">
+                    <form id="login-form" action="validate.php" method="post">
+                        <div class="h1">
+                            <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                            <img width="30" height="30" src="https://img.icons8.com/ios/50/gender-neutral-user--v1.png" alt="gender-neutral-user--v1" style="background-color: white; border-radius: 100%;cursor: pointer;"/>
+                                <h1 style="margin: 0px;">Sign in</h1>
+                            </div>
+                            <p style="margin: 4px;font-size: 14px;">Sign in with your email and password</p>
+                        </div>
+                        <!--<label for="image"></label>
+                    <input type="image" placeholder="Image">!-->
+                        <label for="email">Your email</label><br>
+                        <input type="email" id="email" name="email" class="email" autocomplete="email" placeholder="Enter email" required><br>
+                        <label for="password">Your Password</label><br>
+                        <input type="password" id="password" name="password" class="password" autocomplete="current-password" minlength="8" placeholder="Enter your password" required><br>
+                        <div style="display: flex;justify-content: space-between;">
+                            <div>
+                                <input type="checkbox" id="remember_me" class="Checkbox">
+                                <label for="remember_me" class="Remember">Remember me</label>
+                            </div>
+                            <div class="right">
+                                <a href="" class="forgot">Forgot Password?</a><br>
+                            </div>
+                        </div>                    
+                        <button class="login" type="submit">Login</button>
+                        <p class="login-note">Sign-in checks your saved account credentials.</p>
+                        <div class="register">
+                            <a href="../register/index.html">Register here</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <footer>
+            <div class="mid">
+                <img src="qr_code.png" style="display: flex; height: 100px; width:auto;" class="qr">
+                <section class="section_2">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nostrum, voluptate aliquid,
+                        doloremque
+                        obcaecati possimus esse est non culpa quas libero saepe aspernatur. Et rerum vel quidem ab enim non?
+                    </p>
+                    Email-:sakshamdangol851@gmail.com
+                    Location-:USA,Galli
+                </section>
+            </div>
+        </footer>
+    
+</div>
+</body>
+
+</html>

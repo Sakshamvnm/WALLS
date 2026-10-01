@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(10, 120, 223), rgb(16, 201, 115));
+}
+
+.header {
+    background-color: rgb(48, 47, 47);
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px  rgb(141, 127, 127);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h1 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.big_box {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    /* background-image: linear-gradient(rgb(73, 62, 62),rgb(105, 101, 101)); */
+
+    background-blend-mode: normal;
+    border: 2px;
+    border-style: ridge black;
+
+}
+
+.small_box {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.541);
+    background-blend-mode: soft-light;
+    display: inline-block;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+}
+
+form {
+    color: whitesmoke;
+    text-indent: 2px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+.email {
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    text-indent: 5px;
+    border-radius: 4px;
+    border-style: none;
+    margin-bottom: 20px;
+    padding: 20px 8px;
+}
+
+.password {
+    margin-bottom: 12px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    text-indent: 5px;
+    border-radius: 4px;
+    border-style: none;
+    padding: 20px 8px;
+
+}
+
+.h1 {
+    text-align: center;
+    padding-bottom: 2px;
+    margin: 2px;
+    position: relative;
+
+}
+
+.forgot {
+    text-decoration: none;
+    color: rgb(139, 139, 255);
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.right {
+    margin-bottom: 12px;
+    margin-right: 19px;
+    text-align: right;
+
+}
+
+.Remember {
+    margin: 4px;
+    border-radius: 2px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.login {
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    
+    &:hover {
+
+.login:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+        background-color: rgb(26, 24, 24);
+        cursor: pointer;
+    }
+}
+
+.login-note {
+    margin: 10px 0 0;
+    color: #dedede;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.register {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.register a {
+    color: rgb(139, 139, 255);
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+
+.foot {
+    background-color: green;
+    padding: 23px;
+    color: #ddd;
+    display: flex;
+}
+
+.color{
+    display: flex;
+    flex-direction: column;
+    color: rgb(7, 5, 5);
+    background-color: rgb(241, 241, 241);
+    padding: 0px 40px;
+    border: 0px;    
+    margin: 2px;
+}
+
+.mid{
+    display: flex;
+}
+
+.section_2{
+    display: flex;
+    border-left: 2px solid black;
+    margin-left: 12px;
+}
+
+.qr{
+    margin:0px;
+}
